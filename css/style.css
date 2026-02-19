@@ -734,7 +734,7 @@ strong {
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("img/eating.webp");
+    url("../img/eating.webp");
   background-size: cover;
   background-position: center;
 }
@@ -848,5 +848,6 @@ strong {
 .footer-link:active {
   color: #555;
 }
+
 
 
