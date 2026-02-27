@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/2style.css" />
     <title>Omnifood</title>
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self' https://cdn.tailwindcss.com https://unpkg.com;">
+               <script src="js/script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -461,6 +465,8 @@
                     type="text"
                     placeholder="Ваше имя"
                     name="full-name"
+                    pattern="[A-Za-z\s\-]{2,50}"
+                    title="Только буквы, пробелы и дефисы"
                     required
                   />
                 </div>
